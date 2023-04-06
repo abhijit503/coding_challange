@@ -88,6 +88,7 @@
                 }
                 page_data+='<li class="page-item"><a class="page-link" onclick="loadCompany(\''+data.metadata.next_url+'\')">Next</a></li></ul>';
 
+
                 if (companyData != "") {
                     $("#table").html(companyData);
                 }else{
